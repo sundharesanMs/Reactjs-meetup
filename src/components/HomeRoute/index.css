@@ -1,0 +1,59 @@
+.home-route-container {
+  min-height: 100vh;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 20px;
+}
+
+.greeting-text {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.register-request-text {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  color: #64748b;
+  margin: 10px;
+}
+
+.register-button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  outline: none;
+  margin: 10px;
+}
+
+.meetup-image {
+  width: 100%;
+  padding: 10px;
+  max-width: 700px;
+}
+
+.username-text {
+  color: #2563eb;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+.user-topic-text {
+  color: #334155;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-family: 'Roboto';
+}

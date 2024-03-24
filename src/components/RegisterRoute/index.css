@@ -1,0 +1,92 @@
+.register-route-container {
+  min-height: 100vh;
+}
+
+.register-container {
+  padding: 20px;
+}
+
+.register-image {
+  width: 100%;
+}
+.register-main-container {
+}
+
+.register-form-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-heading {
+  font-size: 25px;
+}
+
+.label-item {
+  font-size: 15px;
+  font-weight: 500;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.input-user-name {
+  padding: 15px;
+  border: solid gray 1px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.select {
+  width: 100%;
+  padding: 15px;
+  border: solid gray 1px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.register-now-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #2563eb;
+  align-self: center;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .register-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  .register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+  .register-image {
+    width: 50%;
+    max-width: 400px;
+  }
+  .register-form-container {
+    width: 50%;
+    max-width: 300px;
+  }
+  .register-heading {
+    font-size: 35px;
+  }
+}
+
+.error-msg {
+  color: red;
+  font-size: 10px;
+  text-align: center;
+  margin: 5;
+}
